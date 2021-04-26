@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <LinearLayout
+        android:id="@+id/Conexion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Instituto Superior Tecnologico Loja"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#B31A1A"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:text="Somos el primer Instituto de Nivel Superior en Loja Gratuito. Donde podras obtener tu título de tercer nivel en tan solo 2 años y medio"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#1866C6"
+            android:textSize="25dp"
+            android:textStyle="bold" />/>
+
+        <ImageView
+            android:id="@+id/imageLoked"
+            android:layout_width="294dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tec" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="50dp"
+            android:text='"El cambio llegara si tu te lo propones , ven y estudia una carrera de tercer nivel ' />
+
+    </LinearLayout>
+
+</RelativeLayout>
